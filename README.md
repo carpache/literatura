@@ -20,7 +20,7 @@ Aplicación Spring Boot completa para interactuar con la API de Gutendex (Projec
 
 - **Backend**:
     - Java 17
-    - Spring Boot 3.1
+    - Spring Boot 3.12
     - Spring Data JPA
     - Jackson (v2.16)
 
