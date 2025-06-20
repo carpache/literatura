@@ -6,7 +6,7 @@
 
 Aplicación Spring Boot completa para interactuar con la API de Gutendex (Project Gutenberg) que permite buscar, almacenar y analizar datos de libros y autores.
 
-## 🌟 Características
+## Características
 
 - **Búsqueda avanzada** de libros por título
 - **Persistencia** en base de datos PostgreSQL
@@ -16,7 +16,7 @@ Aplicación Spring Boot completa para interactuar con la API de Gutendex (Projec
 - **Estadísticas** completas
 - **Interfaz de línea de comandos** (CLI) intuitiva
 
-## 🛠 Stack Tecnológico
+## Stack Tecnológico
 
 - **Backend**:
     - Java 17
