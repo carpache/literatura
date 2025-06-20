@@ -59,14 +59,14 @@ Requisitos Mínimos
 ````
 -Configurar aplicación (src/main/resources/application.properties):
 ````
-spring.datasource.url=jdbc:postgresql://localhost:5432/literatura
-spring.datasource.username=postgres
-spring.datasource.password=5050
-spring.datasource.driver-class-name=org.postgresql.Driver
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.properties.hibernate.format_sql=true
+-spring.datasource.url=jdbc:postgresql://localhost:5432/literatura
+-spring.datasource.username=postgres
+-spring.datasource.password=5050
+-spring.datasource.driver-class-name=org.postgresql.Driver
+-spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.show-sql=true
+-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+-spring.jpa.properties.hibernate.format_sql=true
 
 ````
 
