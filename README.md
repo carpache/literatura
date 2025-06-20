@@ -55,28 +55,19 @@ Requisitos Mínimos
 - PostgreSQL 15+ o Docker
 - Maven 3.8+
 
-Pasos de Instalación:
-1. Clonar repositorio:
+
 ````
-git clone https://github.com/tu-usuario/gutendex-client.git
-cd gutendex-client
+-Configurar aplicación (src/main/resources/application.properties):
 ````
-2. Configurar PostgreSQL con Docker (recomendado):
-````
-docker run --name gutendex-db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -e POSTGRES_DB=gutendex -p 5432:5432 -d postgres:15
-````
-3. Configurar aplicación (src/main/resources/application.properties):
-````
-spring.datasource.url=jdbc:postgresql://localhost:5432/gutendex
+spring.datasource.url=jdbc:postgresql://localhost:5432/literatura
 spring.datasource.username=postgres
-spring.datasource.password=password
+spring.datasource.password=5050
+spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.hibernate.ddl-auto=update
-server.port=8080
-````
-4. Ejecutar aplicación
-````
-mvn clean install
-mvn spring-boot:run
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+
 ````
 
 ##  🖥 Manual de Uso
