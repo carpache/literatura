@@ -106,26 +106,7 @@ Muestra conteo por idiomas
 
 Consultar autores:
 
-Buscar autores vivos en 1850
+
 ````
-## 🏗 Estructura del Código
-````
-src/main/java/com/example/gutendex/
-├── config/              # Configuraciones
-├── controller/         # Lógica de CLI
-├── dto/                # Objetos para la API
-│   ├── AutorDTO.java
-│   ├── LibroDTO.java
-│   └── ResultDTO.java
-├── model/              # Entidades JPA
-│   ├── Autor.java
-│   └── Libro.java
-├── repository/         # Repositorios
-│   ├── AutorRepository.java
-│   └── LibroRepository.java
-├── service/            # Servicios
-│   ├── ApiService.java
-│   └── DatabaseService.java
-└── GutendexApplication.java # Main
-````
+
 
