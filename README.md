@@ -60,10 +60,15 @@ Requisitos Mínimos
 -Configurar aplicación (src/main/resources/application.properties):
 ````
 spring.application.name=screenmatch-frases
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/literatura
+
 spring.datasource.username=postgres
+
 spring.datasource.password=5050
+
 spring.datasource.driver-class-name=org.postgresql.Driver
+
 hibernate.dialect=org.hibernate.dialect.HSQLDialect
 
 spring.jpa.hibernate.ddl-auto=update
