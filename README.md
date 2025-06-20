@@ -25,7 +25,7 @@ Aplicación Spring Boot completa para interactuar con la API de Gutendex (Projec
     - Jackson (v2.16)
 
 - **Base de Datos**:
-    - PostgreSQL 15+
+    - PostgreSQL
 
 - **Dependencias Principales**:
   ```xml
