@@ -13,7 +13,6 @@ Aplicación Spring Boot completa para interactuar con la API de Gutendex (Projec
 - **Consultas especializadas**:
     - Libros por idioma (inglés, español, francés)
     - Autores vivos en año específico
-    - Top 10 libros más descargados
 - **Estadísticas** completas
 - **Interfaz de línea de comandos** (CLI) intuitiva
 
